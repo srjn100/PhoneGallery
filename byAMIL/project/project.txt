@@ -1,0 +1,21 @@
+CREATE table USERS(
+user_id int primary key auto increament,
+email varchar(75) not null unique,
+userName varchar(40) not null unique,
+password varchar(40) not null,
+firstName varchar(20) not null,
+lastName varchar(20) not null,
+regDate date not null,
+isAdmin varchar(50) not null unique);
+
+CREATE table RATEnREVIEWS(
+rnrID int primary key auto increament,
+rnrDate date not null,
+rating int not null,
+review varbinary(75) not null,
+userID int,
+foreign key userID references
+users(userID),
+phoneId int,
+foreign key phoneID references
+phones(phoneID));

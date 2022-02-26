@@ -1,0 +1,124 @@
+.edit-form{
+    width: 500px;
+    background: #FFFFFF;
+    margin: 30px auto 0px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+}
+.edit-h1{
+    margin: 0px;
+    text-align: center;
+    padding: 0 0 5px;
+}
+.edit-heading{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.edit-row{
+    width:428px;
+    height: 85px;
+}
+.edit-col-l{
+    width:214px;
+    height: 70px;
+    float:left;
+    padding: 5px 10px 0;
+}
+.edit-col-r{
+    width:214px;
+    height: 70px;
+    float:right;
+    padding: 5px 10px 0;
+}
+.input-frame{
+
+    color: #202124 ;
+    border-color: #202124;
+    border-radius: 5px;
+    padding: 0px;
+    border-width: 2px!important;
+    border-style: groove!important;
+    height: auto;
+    border-image: initial!important;
+}
+.l{
+    width: auto;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    font-weight: bolder;
+    font-size: 13px;
+}
+input[type="text"],input[type="password"]{
+    width: 190px;
+    height: 28px;
+    outline: 0px;
+    border: 0px;
+    color: #202124;
+    font-size: 16px;
+    padding: 15px 10px 22px
+}
+.error{
+    color: #FF0000;
+    text-align: right;
+    width: 190px;
+    height: 20px;
+    font-size: 12px;
+}
+.filediv{
+    width:250px ;
+    height: 50px;
+    padding: 10px;
+    float: left;
+}
+.edit-submit{
+    width:88px;
+    float: right;
+    margin-right: 15px;
+    height: 85px;
+    line-height: 85px;
+}
+input[type='submit']{
+    width:88px;
+    height: 36px;
+    background: #1C1C1C;
+    border-radius: 5px;
+    border: 0px;
+    color: #FFFFFF;
+    font-size:15px;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+input[type='submit']:hover{
+    background-color: #909090;
+    color: #FF0000;
+}
+input[type='file']{
+    padding: 5px 10px 10px;
+    border: 0px;
+    height: 50%;
+    font-size: 15px;
+}
+.upin{
+    text-align: left;
+}
+#up-button{
+    min-width: 150px;
+    padding: 10px;
+    color:#FFFFFF;
+    background-color: #1C1C1C;
+    border: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 15px auto 10px 10px;
+
+}
+#up-button:hover{
+    background-color: #909090;
+    color: #FF0000;
+
+}
+

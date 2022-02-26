@@ -1,0 +1,428 @@
+.head {
+    width: 1080px;
+    margin: 10px auto;
+    background-color: white;
+    border-left: 15px solid #343A40;
+    border-right: 15px solid #343A40;
+    border-radius: 20px;
+}
+
+.first {
+    width: 100%;
+    height: auto;
+    line-height: 100%;
+    padding: 10px;
+    background-color: #343A40;
+    color: #FFFFFF;
+
+}
+
+.second {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    letter-spacing: 5px;
+    line-height: 100%;
+    color: #000000;
+
+}
+
+.second h1 {
+    font-size: 100px;
+    font-family: abys;
+    margin: 0px;
+}
+
+.third {
+    width: 100%;
+    height: 900px;
+    margin-top: 10px;
+
+}
+
+.thirdF {
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.thirdFirst {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    border-right: 1px solid #1C1C1C;
+
+}
+
+.thirdSecond {
+    width: 100%;
+    height: auto;
+    border-right: 1px solid #1C1C1C;
+}
+
+.thirdS {
+    width: 70%;
+    height: 100%;
+    float: right;
+    overflow: auto;
+
+}
+
+.thirdSFirst {
+    width: 100%;
+    height: auto;
+    line-height: auto;
+}
+
+.thirdSSecond {
+    width: 100%;
+    height: auto;
+}
+
+/*@keyframes slider{
+	0%{background-image:url("3.jpg");}
+	20%{background-image:url("4.jpg");}
+	40%{background-image:url("5.jpg");}
+	40%{background-image:url("1.jpeg");}
+	100%{background-image:url("2.jpeg");}
+}
+*/
+.thirdSThird {
+    width: 100%;
+    height: auto;
+
+}
+
+.thirdSFourth {
+    width: 100%;
+    height: 300px;
+}
+
+.lastone, .last {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    background-color: #343A40;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+html, body {
+
+    margin: 0px;
+    padding: 0px;
+    background-color: #b8baae;
+}
+
+button:hover{
+    font-weight: bold;
+}
+
+.search {
+    margin-top: 10px;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    background-image: url("3.jpg");
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 10px 5px white;
+    animation: 9s;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    margin: 0px;
+    padding: 0 5px;
+    height: 50px;
+}
+
+.fa {
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #909090;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000000;
+}
+
+@font-face {
+    font-family: abys;
+    src: url(library/font/Abys-Regular.otf);
+}
+
+/*brands*/
+.brand-name {
+    text-align: center;
+
+}
+
+.brand-img img {
+    height: 100px;
+    width: 100px;
+    /* Center and scale the image nicely */
+    position: relative;
+}
+
+.phone-img img {
+    height: 120px;
+    width: 65px;
+    position: relative;
+}
+
+.Phone-name {
+    text-align: center;
+    color: #000000;
+
+}
+
+/*---rating---*/
+.rnr {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.rating {
+    margin-left: 10px;
+    transform: rotateY(180deg);
+    display: flex;
+    width: 175px;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+}
+
+.rating input[type='radio'] {
+    display: none;
+}
+
+.rating label {
+    display: block;
+    cursor: pointer;
+    width: 35px;
+
+}
+
+.rating label:before {
+    content: '\f005';
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    display: block;
+    color: #FFD700;
+}
+
+.rating label:after {
+    content: '\f005';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    position: absolute;
+    display: block;
+
+    color: #FFD700;
+    top: 0;
+    opacity: 0;
+    transition: .3s;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after {
+    opacity: 1;
+}
+
+textarea {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    outline: 0px;
+    border: 3px solid #FFD700;
+    resize: none;
+    border-radius: 10px;
+    padding: 5px;
+    overflow: fragments;
+}
+
+textarea ::-webkit-scrollbar {
+    width: 5px;
+    height: 90%;
+}
+
+textarea:focus {
+    box-shadow: 0 0 10px #000;
+
+}
+
+.rnr-submit {
+    margin-right: 15px;
+    float: right;
+}
+
+.rnr-submit input {
+    padding: 5px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    background: #FFFFFF;
+    font-weight: bold;
+}
+
+.rnr-submit input:hover {
+    background: #FFD700;
+    box-shadow: 0 0 10px #000;
+}
+
+input {
+    outline: none;
+}
+
+.self {
+    width: 300px;
+    height: 220px;
+    right: 2em;
+    top: 5em;
+    display: block;
+    position: absolute;
+    overflow: auto;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    background: #FFFFFF;
+    z-index: 9;
+
+}
+
+.self-top {
+    width: 100%;
+    height: 60%;
+
+}
+
+.self-photo {
+    width: 40%;
+    height: 100%;
+    float: left;
+
+}
+
+.self-img-contain {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.self-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 49%;
+}
+
+.self-info {
+    width: 60%;
+    height: 100%;
+    float: right;
+    font-size: 13px;
+    color: #1C1C1C;
+}
+
+.self-name {
+    width: 90%;
+    height: auto;
+    font-weight: bolder;
+    padding-top: 45px;
+    padding-left: 5px;
+}
+
+.self-email {
+    width: 80%;
+    height: auto;
+    padding-left: 5px;
+}
+
+.self-bottom {
+    width: 100%;
+    height: 40%;
+
+    text-align: center;
+}
+
+.self-link {
+
+    vertical-align: middle;
+    width: 30%;
+    display: inline-block;
+    margin-top: 10%;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 20px;
+    background: #1C1C1C;
+}
+
+.self-link:hover {
+    background: #909090;
+    color: #FF0000;
+    font-weight: bolder;
+}
+
+.side-img {
+    width: 55px;
+    height: 100px;
+}
+.bar-out{
+    width: 335px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid ;
+}
+.bar-in{
+    height: 18px;
+    background-color: #FFD700;
+    line-height: 18px;
+}
+.avg{
+    width: 400px;
+    height: 300px;
+    float: right;
+}
+
+.r-table table{
+    border-top:1px solid;
+    width: 90%;
+}
+.r-table{
+    padding: 10px;
+}
+
+.r-table td,.r-table th{
+    padding: 2px;
+}
+
+.table th{
+    width: 150px;
+
+}
+
+
+
+

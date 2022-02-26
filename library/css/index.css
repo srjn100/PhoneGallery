@@ -1,0 +1,147 @@
+body, html{
+    height: 100%;
+    margin: 0px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+::placeholder{
+    font-size: 20px;
+    text-align: center;
+}
+.bg {
+    /* The image used */
+    background-image: url("../../front-bg.jpg");
+
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg{
+    position: fixed;
+    margin: 0px;
+    overflow: auto;
+}
+.login-form{
+    height: 300px;
+    width: 368px;
+    background: #FFFFFF;
+    top: 500px;
+    margin-top: 200px;
+    margin-left: 800px;
+    padding: 20px 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+}
+.login-h1{
+    margin: 0px;
+    text-align: center;
+}
+.login-heading{
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.login-input{
+    height: 70px;
+    width:368px;
+    padding-top:16px ;
+
+}
+.input-frame{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 0px;
+
+}
+
+.input-frame:hover{
+    color: #287AE6;
+    border-color: #287AE6;
+}
+.input{
+
+}
+.input-left{
+    width: 298px;
+    height: 56x;
+    float: left;
+}
+.input-right{
+    width: 38px;
+    height: 56x;
+    float: right;
+    font-size: 24px;
+    vertical-align: center;
+    padding: 12px 0px;
+    color:#1C1C1C;
+}
+.input-right i:hover{
+    color: #40E53D;
+}
+input{
+    width: 298px;
+    outline: 0px;
+    border: 0px;
+    color: #202124;
+    font-size: 16px;
+    height: 28px;
+    margin: 2px;
+    /*padding: 5px 14px 12px;*/
+    padding: 8.5px 14px 8.5px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+.error{
+    color: #FF0000;
+    height: 20px;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 14px;
+}
+.input-d{
+    height: 50px;
+    width:368px;
+    padding-top:10px ;
+}
+.noacc{
+    width: 200px;
+    height: 50px;
+    float: left;
+    font-size: 14px;
+}
+a:hover{
+    color: #287AE6;
+    
+}
+a{
+    text-decoration: none;
+}
+.login-submit{
+    width:88px;
+    float: right;
+    margin-right: 5px;
+}
+input[type='submit']{
+    width:88px;
+    height: 36px;
+    background: #287AE6;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-size:15px;
+    font-weight: bold;
+    line-height: 20px;
+    font-family: 'Google Sans','Noto Sans Myanmar UI',arial,sans-serif;
+}
+input[type='submit']:hover{
+    background: #40E53D;
+}
+legend{
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 13px;
+    display: none;
+}

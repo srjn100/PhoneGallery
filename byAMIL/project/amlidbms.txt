@@ -1,0 +1,27 @@
+create table SPECIFICATION(
+specid  int primary key,
+body varbinary() not null,
+display varbinary() not null,
+platform varbinary() not null,
+memory varbinary() not null,
+camera varbinary() not null,
+sound varbinary() not null,
+communicatioin varbinary() not null,
+sensors  varbinary() not null,
+battery varbinary() not null,
+mics varbinary() not null,
+userid int,
+foreign key (userid) references users(userid),
+phoneid int unique,
+foreign key (phoneid) references phone(phoneid));
+
+
+
+
+create table IMAGES(
+imageName varbinary() unique not null,
+path  varbinary() not null,
+userid int,
+foreign key (userid) references users(userid),
+phoneid int,
+foreign key (phoneid) references phone(phoneid));

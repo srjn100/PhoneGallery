@@ -1,0 +1,41 @@
+.dash-content{
+    display: flex;
+    flex-direction: column;
+}
+.dash-row{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 4% 0;
+}
+.dash-col{
+    text-align: center;
+    width: 200px;
+    height: 190px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #000;
+    background:#FFFFFF;
+    padding: 5px;
+}
+.dash-col h4,.dash-col h3{
+    margin: 5px 10px;
+    color: #FFFFFF;
+    background-color: #272727;
+
+}
+.dash-col h1,.dash-col h2{
+    margin: 30px 10px;
+    padding: 10px 0;
+    font-size: 21px;
+    color: #FFFFFF;
+    background-color: #272727;
+}
+.dash-col h2{
+    font-size: 30px;
+    padding:2px 0;
+
+}
+.dash-col img{
+    width: 60px;
+    height: 110px;
+}

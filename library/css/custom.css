@@ -1,0 +1,27 @@
+.topB{
+    height:2.5rem
+}
+.sideB{
+    margin-top: 2.5rem;
+    width:3rem;
+    transition: 0.3s;
+}
+
+.link{
+    display: none;
+    transition: 0.3s;
+}
+.slink{
+    display:none;
+}
+.icn{
+    display: inline !important;
+    margin: 0px auto;
+    color: white;
+
+
+}
+#q{
+    margin:0px auto;
+
+}
